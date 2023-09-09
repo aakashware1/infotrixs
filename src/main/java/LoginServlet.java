@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
 			{
 				 HttpSession session = request.getSession();
 	                session.setAttribute("userId", name); 
-				response.sendRedirect("new.jsp");
+				response.sendRedirect("chatPage.jsp");
 				
 			}
 			else
